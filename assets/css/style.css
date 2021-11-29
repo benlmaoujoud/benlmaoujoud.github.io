@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
-  padding-right: 25px;
+  padding-right: 22px;
 
 }
 
@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-top h1 {
-  margin-right: auto;
+  margin-right: 0px;
   font-size: 36px;
 }
 
