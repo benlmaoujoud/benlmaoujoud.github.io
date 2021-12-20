@@ -404,14 +404,17 @@
     });
     
     
-    var x = localStorage.getItem("page_view");
+     var flg = localStorage.getItem('on_load_counter');
 
-    if (x) {
-      visitCount = Number(x) + 1;
-      localStorage.setItem("page_view", x);
+    if (flg === null) {
+        flg = 0;
     }
+
+    flg++;
+
+    localStorage.setItem("on_load_counter", flg);
    
-   console.log("private variable : "+ x);
+      console.log("NUMBER OF VISITORS  : "+ flag);
     
   </script>
 
